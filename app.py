@@ -1,12 +1,12 @@
 """Flask app for adopt app."""
 
 from flask import Flask, url_for, render_template, redirect, flash, jsonify
-import os
+# import os
 
 
-from models import db, connect_db, Pet
-from forms import AddPetForm, EditPetForm
-print('test', )
+# from models import db, connect_db, Pet
+# from forms import AddPetForm, EditPetForm
+# print('test', )
 app = Flask(__name__)
 # print('app', app)
 # app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get('DATABASE_URL', "postgres:///adopt")
